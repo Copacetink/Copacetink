@@ -98,7 +98,7 @@ export default function Home() {
 
           <div className="text-xs uppercase tracking-[0.35em] text-white/60">
 
-            TATTOOS ART FAMILY
+            TATTOOS / ART / FAMILY
 
           </div>
 
@@ -106,21 +106,21 @@ export default function Home() {
 
          <div className="relative inline-block">
 
-  <h1 className="mt-6 text-6xl md:text-8xl font-semibold uppercase tracking-[0.1em]">
+  <h1 className="mt-6 text-6xl md:text-7xl font-semibold uppercase tracking-[0.1em]">
 
-    COPACET
+  COPACET
 
-   <span className="ml-2 text-[0.75em] font-semibold tracking-[0.15em] align-baseline">
+  <span className="ml-2 text-[0.8em] font-semibold tracking-[0.15em] align-baseline">
 
-  INK
+    INK
 
-</span>
+  </span>
 
-  </h1>
+</h1>
 
 
 
-<span className="ml-2 text-[4em] font-semibold tracking-[0.15em] align-baseline">
+<span className="ml-2 text-[3em] font-semibold tracking-[0.15em] align-baseline">
 
   TATTOO
 
@@ -181,11 +181,11 @@ export default function Home() {
 
         {/* big faint background word */}
 
-        <div className="pointer-events-none absolute inset-x-0 -bottom-12 select-none text-center text-[5rem] font-black uppercase tracking-[0.2em] text-white/5 md:text-[8rem]">
+       <div className="pointer-events-none absolute inset-x-0 -bottom-12 select-none text-center text-[2.5rem] font-black uppercase tracking-[0.25em] text-white/5 md:text-[6rem]">
 
-        -TOKOUSO-
+  -TOKOUSO-
 
-        </div>
+</div>
 
       </section>
 
