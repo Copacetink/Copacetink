@@ -277,11 +277,61 @@ export default function Home() {
 
 
 
-    git add .
+    <div className="mt-10 grid gap-3 md:grid-cols-3">
 
-git commit -m "Update booking button label"
+  <a
 
-git push
+    href="https://tally.so/r/xXYEgo"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+
+
+  >
+
+    Book with Tai
+
+  </a>
+
+
+
+  <a
+
+    href="https://tally.so/r/xXYEgo"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+
+
+  >
+
+    Book with Sunny
+
+  </a>
+
+
+
+  <a
+
+   href="https://tally.so/r/xXYEgo"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+
+
+  >
+
+    Book with BamCBK
+
+  </a>
+
+</div>
 
 
 
