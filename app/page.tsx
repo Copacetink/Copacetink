@@ -277,35 +277,11 @@ export default function Home() {
 
 
 
-    <div className="mt-10 flex flex-wrap gap-3">
+    git add .
 
-      <a
+git commit -m "Update booking button label"
 
-        href="mailto:booking@copacetink.com?subject=Booking%20Request%20-%20CopacetInk%20Tattoo"
-
-        className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-3 text-sm font-semibold uppercase tracking-widest text-black hover:opacity-90"
-
-      >
-
-        Email Booking Request
-
-      </a>
-
-
-
-      <a
-
-        href="#artists"
-
-        className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white hover:bg-white/10"
-
-      >
-
-        Choose an Artist
-
-      </a>
-
-    </div>
+git push
 
 
 
