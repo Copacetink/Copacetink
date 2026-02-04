@@ -140,14 +140,14 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap gap-3">
 
             <a
-
+              
               href="#booking"
 
               className="rounded-full bg-white px-5 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-black"
 
             >
 
-              Book an Appointment
+             BOOKING
 
             </a>
 
@@ -189,7 +189,135 @@ export default function Home() {
 
       </section>
 
+<section id="booking" className="border-t border-white/10">
 
+  <div className="mx-auto max-w-6xl px-5 py-16 md:py-24">
+
+    <p className="text-xs uppercase tracking-widest text-zinc-500">
+
+      Booking
+
+    </p>
+
+
+
+    <h2 className="mt-3 text-3xl font-semibold uppercase tracking-[0.12em] md:text-4xl">
+
+      Book an Appointment
+
+    </h2>
+
+
+
+    <p className="mt-4 max-w-2xl text-white/70">
+
+      To secure your appointment, a deposit is required. Please review the details below
+
+      before requesting a booking.
+
+    </p>
+
+
+
+    <div className="mt-10 grid gap-6 md:grid-cols-3">
+
+      <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+
+        <h3 className="text-sm font-semibold uppercase tracking-[0.15em]">
+
+          Deposit
+
+        </h3>
+
+        <p className="mt-3 text-white/70">
+
+          $100 non-refundable deposit to hold your time slot. Applies toward the final price.
+
+        </p>
+
+      </div>
+
+
+
+      <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+
+        <h3 className="text-sm font-semibold uppercase tracking-[0.15em]">
+
+          Reschedule
+
+        </h3>
+
+        <p className="mt-3 text-white/70">
+
+          One reschedule allowed with at least 48 hours notice. Late changes may forfeit deposit.
+
+        </p>
+
+      </div>
+
+
+
+      <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
+
+        <h3 className="text-sm font-semibold uppercase tracking-[0.15em]">
+
+          Arrival
+
+        </h3>
+
+        <p className="mt-3 text-white/70">
+
+          Please arrive on time. A 15-minute grace period may apply depending on the day’s schedule.
+
+        </p>
+
+      </div>
+
+    </div>
+
+
+
+    <div className="mt-10 flex flex-wrap gap-3">
+
+      <a
+
+        href="mailto:booking@copacetink.com?subject=Booking%20Request%20-%20CopacetInk%20Tattoo"
+
+        className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white px-6 py-3 text-sm font-semibold uppercase tracking-widest text-black hover:opacity-90"
+
+      >
+
+        Email Booking Request
+
+      </a>
+
+
+
+      <a
+
+        href="#artists"
+
+        className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white hover:bg-white/10"
+
+      >
+
+        Choose an Artist
+
+      </a>
+
+    </div>
+
+
+
+    <p className="mt-6 text-sm text-white/50">
+
+      Prefer text? Include your name, placement, size, reference images, and your availability.
+
+    </p>
+
+  </div>
+
+</section>
 
       {/* ARTISTS */}
 
