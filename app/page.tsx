@@ -281,55 +281,38 @@ export default function Home() {
 
   <a
 
-    href="https://tally.so/r/xXYEgo"
+  href="/booking?artist=Tai"
 
-target="_blank"
+  className="underline"
 
-rel="noopener noreferrer"
+>
 
+  Book with Tai
 
-
-  >
-
-    Book with Tai
-
-  </a>
+</a>
 
 
+<a
 
-  <a
+  href="/booking?artist=Sunny"
 
-    href="https://tally.so/r/xXYEgo"
+  className="underline"
 
-target="_blank"
+>
 
-rel="noopener noreferrer"
+  Book with Sunny
 
-
-
-  >
-
-    Book with Sunny
-
-  </a>
+</a>
 
 
 
-  <a
+<a 
+  
+  href="/booking?artist=BamCBK" className="underline">
 
-   href="https://tally.so/r/xXYEgo"
+  Book with BamCBK
 
-target="_blank"
-
-rel="noopener noreferrer"
-
-
-
-  >
-
-    Book with BamCBK
-
-  </a>
+</a>
 
 </div>
 
