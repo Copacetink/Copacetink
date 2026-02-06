@@ -183,7 +183,7 @@ export default function Home() {
 
        <div className="pointer-events-none absolute inset-x-0 -bottom-12 select-none text-center text-[2.5rem] font-black uppercase tracking-[0.25em] text-white/5 md:text-[6rem]">
 
-  -TOKOUSO-
+  TOKOUSO
 
 </div>
 
@@ -357,7 +357,7 @@ export default function Home() {
             {[
 
               { name: "Tai", role: "Resident / Artist", tags: ["Polynesian", "Black & Gray", "Script"] },
-
+                       
               { name: "Sunny", role: "Resident Artist", tags: ["Anime", "Black & Gray","fine Line", "Portraits"] },
 
               { name: "BamCBK", role: "Apprentice / Artist", tags: ["Polynesian", "Anime", "Black & Gray"] },
