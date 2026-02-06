@@ -2,8 +2,9 @@
 
 
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 
+import { useSearchParams } from "next/navigation";
 
 
 export default function BookingPage() {
@@ -24,7 +25,33 @@ export default function BookingPage() {
 
   const [agreement, setAgreement] = useState(false);
 
+const searchParams = useSearchParams();
 
+
+
+useEffect(() => {
+
+  const urlArtist = searchParams.get("artist");
+
+  if (!urlArtist) return;
+
+
+
+  const normalized =
+
+    urlArtist.toLowerCase() === "tai" ? "Tai" :
+
+    urlArtist.toLowerCase() === "sunny" ? "Sunny" :
+
+    urlArtist.toLowerCase() === "bamcbk" ? "BamCBK" :
+
+    null;
+
+
+
+  if (normalized) setArtist(normalized);
+
+}, [searchParams]);
 
   const mailtoHref = useMemo(() => {
 
