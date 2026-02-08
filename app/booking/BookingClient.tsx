@@ -62,9 +62,31 @@ export default function BookingClient({ initialArtist = "Tai" }: { initialArtist
 
     const body = bodyLines.join("\n");
 
-    const to = "jeanatuha@gmail.com";
+    const to =
 
-    return `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  artist === "Sunny"
+
+    ? "faamasanigarza@gmail.com"
+
+    : artist === "BamCBK"
+
+    ? "jaytuha@gmail.com"
+
+    : "taitattoos1@gmail.com";
+
+
+
+// Tai gets a copy of every booking
+
+const cc = "taitattoos1@gmail.com";
+
+
+
+return `mailto:${encodeURIComponent(to)}?cc=${encodeURIComponent(
+
+  cc
+
+)}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   }, [artist, fullName, phone, email, placement, description, budget, agreement]);
 
