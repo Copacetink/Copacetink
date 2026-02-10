@@ -530,108 +530,31 @@ export default function Home() {
 
 
 
-      {/* BOOKING */}
+     {/* BOOKING */}
 
-      <section id="booking" className="border-t border-white/10">
+<div className="w-full">
 
-        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-14 md:grid-cols-12 md:py-20">
+  <iframe
 
-          <div className="md:col-span-5">
+    src="https://tally.so/r/3xk9bq"
 
-            <div className="text-xs uppercase tracking-[0.35em] text-white/60">Booking</div>
+    width="100%"
 
-            <div className="mt-2 text-3xl font-extrabold uppercase tracking-[0.12em]">Book Now</div>
+    height="800"
 
+    frameBorder="0"
 
+    marginHeight={0}
 
-            <p className="mt-4 text-white/70">
+    marginWidth={0}
 
-              Send your idea + placement + size + reference photos. We’ll reply with availability and deposit details.
+    title="CopacetInk Booking Form"
 
-            </p>
+    className="rounded-2xl"
 
-          </div>
+  />
 
-
-
-          <div className="md:col-span-7">
-
-            <form className="rounded-2xl border border-white/10 bg-white/5 p-6">
-
-              <div className="grid gap-4 md:grid-cols-2">
-
-                <input
-
-                  className="w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-sm outline-none focus:border-white/40"
-
-                  placeholder="Full name"
-
-                />
-
-                <input
-
-                  className="w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-sm outline-none focus:border-white/40"
-
-                  placeholder="Phone / Email"
-
-                />
-
-              </div>
-
-
-
-              <input
-
-                className="mt-4 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-sm outline-none focus:border-white/40"
-
-                placeholder="Tattoo idea (style, placement, size)"
-
-              />
-
-
-
-              <textarea
-
-                className="mt-4 w-full rounded-xl border border-white/10 bg-black/40 px-4 py-3 text-sm outline-none focus:border-white/40"
-
-                placeholder="Reference links / extra details"
-
-                rows={5}
-
-              />
-
-
-
-              <button
-
-                type="button"
-
-                className="mt-5 w-full rounded-full bg-white px-5 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-black"
-
-              >
-
-                Submit Request
-
-              </button>
-
-
-
-              <p className="mt-3 text-xs text-white/50">
-
-                Next we’ll connect this to your real booking form (Google Form / Acuity / Square / etc.).
-
-              </p>
-
-            </form>
-
-          </div>
-
-        </div>
-
-      </section>
-
-
-
+</div>
       {/* FOOTER */}
 
       <footer className="border-t border-white/10 bg-black">
