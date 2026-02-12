@@ -28,8 +28,45 @@ export default function RootLayout({
 
     <html lang="en">
 
-      <body className="antialiased">{children}</body>
+    <body className="antialiased font-sans">
 
+  {children}
+
+
+
+  <footer style={{ padding: 16 }}>
+
+    <p><strong>COPACETINK TATTOO</strong></p>
+
+    <p>2611 S Cooper St Suite 151</p>
+
+    <p>Arlington, TX 76015</p>
+
+    <p>
+
+      <a href="tel:+18179406691">(817) 940-6691</a>
+
+    </p>
+
+
+
+    <a
+
+      href="https://maps.apple.com/?q=2611%20S%20Cooper%20St%20Suite%20151%20Arlington%20TX%2076015"
+
+      target="_blank"
+
+      rel="noreferrer"
+
+    >
+
+      Open in Apple Maps
+
+    </a>
+
+  </footer>
+
+</body>
     </html>
 
   );
